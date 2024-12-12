@@ -1,0 +1,43 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+button{
+        width: 80px;
+        height: 40px;
+        border: none;
+        outline: none;
+        background: #2f2f2f;
+        color: #fff;
+        font-size: 15px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+table {
+    margin-top: 50px;
+margin-left: 300px;
+  border: 2px solid black;
+  border-collapse: collapse;
+
+}
+thead{
+    background-color:#c0c0c0
+}
+
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid rgb(34, 178, 161);
+
+  }
+  
+  tr:hover {background-color: #D6EEEE;}
